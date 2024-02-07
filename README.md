@@ -6,9 +6,6 @@
 
 https://github.com/alshedivat/al-folio
 
-## Original README
-[Here is the README](https://www.github.com/ZL-Asica/zl-folio/README-RAW.md)
-
 ## Command to install
 
 - Ruby
