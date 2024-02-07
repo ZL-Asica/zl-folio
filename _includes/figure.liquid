@@ -1,7 +1,7 @@
 {% assign img_path = include.path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.tiff' | remove: '.gif' %}
 {% assign is_image_in_assets = include.path | contains: 'assets/img/' %}
 
-<figure>
+<figure style="text-align: center;">
   <picture>
     <!-- Auto scaling with imagemagick -->
     <!--
@@ -26,28 +26,30 @@
       {% if include.class %}
         class="{{ include.class }}"
       {% endif %}
-      {% if include.width %}
-        width="{{ include.width }}"
-      {% else %}
-        width="100%"
-      {% endif %}
-      {% if include.height %}
-        height="{{ include.height }}"
-      {% else %}
-        height="auto"
-      {% endif %}
-      {% if include['min-width'] %}
-        min-width="{{ include.min-width }}"
-      {% endif %}
-      {% if include['min-height'] %}
-        min-height="{{ include.min-height }}"
-      {% endif %}
-      {% if include['max-width'] %}
-        max-width="{{ include.max-width }}"
-      {% endif %}
-      {% if include['max-height'] %}
-        max-height="{{ include.max-height }}"
-      {% endif %}
+        style="
+          {% if include.width %}
+            width: {{ include.width }};
+          {% else %}
+            width: auto;
+          {% endif %}
+          {% if include.height %}
+            height: {{ include.height }};
+          {% else %}
+            height: auto;
+          {% endif %}
+          {% if include['min-width'] %}
+            min-width: {{ include.min-width }};
+          {% endif %}
+          {% if include['min-height'] %}
+            min-height: {{ include.min-height }};
+          {% endif %}
+          {% if include['max-width'] %}
+            max-width: {{ include.max-width }};
+          {% endif %}
+          {% if include['max-height'] %}
+            max-height: {{ include.max-height }};
+          {% endif %}
+        "
       {% if include.alt %}
         alt="{{ include.alt }}"
       {% elsif include.title %}
