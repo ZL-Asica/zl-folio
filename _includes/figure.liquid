@@ -1,5 +1,5 @@
 {% assign img_path = include.path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.tiff' | remove: '.gif' %}
-{% assign is_image_in_assets = include.path | contains: 'assets/img/' %}
+{% assign is_image_in_assets = include.path | contains: 'assets' %}
 
 <figure style="text-align: center;">
   <picture>
@@ -26,17 +26,18 @@
       {% if include.class %}
         class="{{ include.class }}"
       {% endif %}
+      {% if include.width %}
+        width="{{ include.width }}"
+      {% else %}
+        width="auto"
+      {% endif %}
+      {% if include.height %}
+        height="{{ include.height }}"
+      {% else %}
+        height="auto"
+      {% endif %}
+      {% if include['min-width'] or include['min-height'] or include['max-width'] or include['max-height']%}
         style="
-          {% if include.width %}
-            width: {{ include.width }};
-          {% else %}
-            width: auto;
-          {% endif %}
-          {% if include.height %}
-            height: {{ include.height }};
-          {% else %}
-            height: auto;
-          {% endif %}
           {% if include['min-width'] %}
             min-width: {{ include.min-width }};
           {% endif %}
@@ -50,6 +51,7 @@
             max-height: {{ include.max-height }};
           {% endif %}
         "
+      {% endif %}
       {% if include.alt %}
         alt="{{ include.alt }}"
       {% elsif include.title %}
