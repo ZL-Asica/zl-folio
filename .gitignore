@@ -9,3 +9,6 @@ _site
 Gemfile.lock
 node_modules/
 vendor
+
+.DS_store
+_site.zip
