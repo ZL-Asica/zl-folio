@@ -5,5 +5,5 @@ description: Developed a comprehensive iOS health assessment and tracking app in
 img:
 importance: 1
 category: Softwares
-redirect: https://lifetune.zla.app/
+redirect: https://www.zla.app/projects/#Softwares
 ---
