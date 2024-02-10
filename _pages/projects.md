@@ -1,26 +1,43 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A growing collection of my cool projects.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Research, Softwares, Websites, Personal]
 horizontal: false
+sitemap: true
 ---
 
 <!-- pages/projects.md -->
-<div class="projects">
+
+<div class="projects" style="padding-bottom: 57px;">
+
+<p>
+Here are 4 main categories of projects below for me.<br>
+<a href="#Research">(1) Research</a> <br>
+<a href="#Softwares">(2) Softwares</a> <br>
+<a href="#Websites">(3) Websites</a> <br>
+<a href="#Personal">(4) Personal</a> <br>
+</p>
+
 {% if site.enable_project_categories and page.display_categories %}
+
   <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
+
+{% for category in page.display_categories %}
+<a id="{{ category }}" href=".#{{ category }}">
+
+<h2 class="category">{{ category }}</h2>
+</a>
+{% assign categorized_projects = site.projects | where: "category", category %}
+{% assign sorted_projects = categorized_projects | sort: "importance" %}
+
   <!-- Generate cards for each project -->
-  {% if page.horizontal %}
+
+{% if page.horizontal %}
+
   <div class="container">
     <div class="row row-cols-2">
     {% for project in sorted_projects %}
