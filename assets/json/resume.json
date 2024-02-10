@@ -1,199 +1,172 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Zhuoran Liu",
+    "label": "Undergraduate Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "zhuoran.liu@uci.edu",
+    "phone": "",
+    "url": "https://www.zla.app/",
+    "summary": "",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "University of California, Irvine",
+      "postalCode": "CA 92697",
+      "city": "Irvine",
       "countryCode": "US",
       "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    }
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "institution": "University of California, Irvine",
+      "location": "Irvine, CA",
+      "url": "https://uci.edu",
+      "area": "Double Majors in Computer Science and Informatics",
+      "studyType": "Banclor of Science",
+      "startDate": "2020-09",
+      "endDate": "2024-06",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Web Development",
+        "Mobile Development",
+        "Data Mining",
+        "Data Visualization",
+        "Computer Graphics",
+        "Deep Learning"
+      ]
+    }
+  ],
+  "research": [
+    {
+      "name": "Information and Computer Sciences Honor Program",
+      "location": "Irvine, CA",
+      "institute": "SEPE - University of California, Irvine",
+      "summary": [
+        "- Engaged in a pivotal project on \"Risk Prediction of Cardiovascular Events using Explainable AI on Deep Learning Models\" under Dr. Mohammad Moshirpour.",
+        "- Conducted comprehensive literature review and developed an optimized AI model for stress analysis during sleep, enhancing accuracy in cardiovascular risk assessment."
+      ],
+      "highlights": ["Python", "Machine Learning", "Deep Learning"],
+      "startDate": "2023-10",
+      "endDate": "PRESENT",
+      "url": "https://moshirpour.com/"
+    },
+    {
+      "name": "Research Assistant",
+      "location": "Hong Kong",
+      "institute": "Ren Lab - The Chinese University of Hong Kong",
+      "summary": [
+        "- Contributed to the \"Surgical Foundation Model Project,\" focusing on data analysis and model optimization under Prof. Ren Hongliang.",
+        "- Collaborated with PhD students, refining models and advancing the project's analytical capabilities."
+      ],
+      "highlights": ["Python", "Foundation Model"],
+      "startDate": "2023-06",
+      "endDate": "2023-09",
+      "url": "https://www.ee.cuhk.edu.hk/en-gb/people/academic-staff/professors/prof-ren-hongliang"
+    },
+    {
+      "name": "Research Assistant",
+      "location": "Irvine, CA",
+      "institute": "Shi Lab - University of California, Irvine",
+      "summary": [
+        "- Developed Python algorithms for \"GO3D - Spatial Organization of Single-Cell Multiomic Data,\" enhancing automation and imaging accuracy.",
+        "- Innovated in automated microscopy and super-resolution imaging techniques, significantly advancing the project's technological aspect."
+      ],
+      "highlights": ["Python", "Bioinformatics"],
+      "startDate": "2023-05",
+      "endDate": "2023-11",
+      "url": "https://www.shilab.bio.uci.edu/"
+    }
+  ],
+  "work": [
+    {
+      "name": "Beluga Subtitle Group",
+      "position": "Founder & Executive Director",
+      "url": "https://www.belugasubs.com/",
+      "startDate": "2019-07-20",
+      "endDate": "",
+      "summary": "Founded and led a team of 130 in producing 40 videos per week, achieving over 100K fans and collaborating with top digital sector clients.",
+      "highlights": ["Founder", "Top in China"]
+    },
+    {
+      "name": "University of California, Irvine",
+      "position": "Python Programming Tutor",
+      "url": "https://hdedu.ai/",
+      "startDate": "2022-03",
+      "endDate": "",
+      "summary": "Created and delivered an advanced Python course, covering libraries like Path and Tkinter, and successfully taught over 20 students.<br>Tailored support to diverse student groups, elevating their understanding and application of Python.",
+      "highlights": ["Teaching", "Python"]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "title": "ICS Honor Program (In Progress)",
+      "date": "2024",
+      "awarder": "University of California, Irvine",
+      "url": "https://ics.uci.edu/honors/",
+      "summary": "Indepentently working on a research project with a faculty member."
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "title": "Deans Honor List",
+      "date": "2024",
+      "awarder": "University of California, Irvine",
+      "url": "https://www.reg.uci.edu/addl/faq.html#grades",
+      "summary": "Awarded for academic excellence."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Programming Languages",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["Python", "Java", "C++", "C", "JavaScript", "HTML", "CSS", "TypeScript", "Swift"]
+    },
+    {
+      "name": "Design Tools",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Figma",
+        "Adobe Photoshop",
+        "Adobe Illustrator",
+        "Adobe After Effects",
+        "Adobe Premiere Pro",
+        "Adobe Lightroom",
+        "Adobe InDesign",
+        "Adobe Audition",
+        "Final Cut Pro",
+        "DaVinci Resolve",
+        "Cinema 4D"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Manadarin Chinese",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "Professional working proficiency",
+      "icon": ""
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Intermediate",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Computer Science",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "keywords": ["Machine Learning", "Deep Learning", "Explainable AI"]
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Informatics",
+      "icon": "fa-solid fa-tag",
+      "keywords": ["Health Informatics", "Human-Computer Interaction"]
     }
   ]
 }
