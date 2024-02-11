@@ -7,7 +7,6 @@ nav: true
 nav_order: 3
 display_categories: [Research, Softwares, Websites, Personal]
 horizontal: false
-sitemap: true
 ---
 
 <!-- pages/projects.md -->

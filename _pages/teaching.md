@@ -5,7 +5,6 @@ title: Teaching
 description: My teaching experiences.
 nav: true
 nav_order: 4
-sitemap: true
 ---
 
 ---

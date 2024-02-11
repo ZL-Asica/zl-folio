@@ -13,5 +13,4 @@ children:
   - title: divider
   - title: blog
     permalink: /blog/
-sitemap: false
 ---
