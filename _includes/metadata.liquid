@@ -49,6 +49,10 @@
   {% endunless %}
 {% endif %}
 
+{% if page.block_robots %}
+  <meta name="robots" content="noindex, nofollow">
+{% endif %}
+
 {% if site.serve_og_meta %}
   <!-- OpenGraph -->
   <meta property="og:site_name" content="{{ title }}">
