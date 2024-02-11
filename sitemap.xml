@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- ############################################################################################ -->
+    <!-- Home Page: Updated with News & Publications -->
+    <!-- ############################################################################################ -->
+    <url>
+        <loc>https://www.zla.app/</loc>
+        <lastmod>2024-02-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <!-- ############################################################################################ -->
+    <!-- News Page: Updated when something exsiting happends -->
+    <!-- ############################################################################################ -->
+    <url>
+        <loc>https://www.zla.app/news/</loc>
+        <lastmod>2024-02-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <!-- ############################################################################################ -->
+    <!-- Teaching Page: Updated when have new teaching experince -->
+    <!-- ############################################################################################ -->
+    <url>
+        <loc>https://www.zla.app/teaching/</loc>
+        <lastmod>2024-02-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <!-- ############################################################################################ -->
+    <!-- Projects Page: Updated with News & Publications -->
+    <!-- ############################################################################################ -->
+    <url>
+        <loc>https://www.zla.app/projects/</loc>
+        <lastmod>2024-02-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <!-- ############################################################################################ -->
+    <!-- CV page: Updated with News -->
+    <!-- ############################################################################################ -->
+    <url>
+        <loc>https://www.zla.app/cv/</loc>
+        <lastmod>2024-02-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <!-- ############################################################################################ -->
+    <!-- #1 Projects Page: Research -->
+    <!-- ############################################################################################ -->
+    <!-- ############################################################################################ -->
+    <!-- #2 Projects Page: Softwares -->
+    <!-- ############################################################################################ -->
+    <url>
+        <loc>https://www.zla.app/projects/LifeTune/</loc>
+        <lastmod>2024-02-09</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.zla.app/projects/MyWellness/</loc>
+        <lastmod>2024-02-09</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.zla.app/projects/CancerObserver/</loc>
+        <lastmod>2024-02-09</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <!-- ############################################################################################ -->
+    <!-- #3 Projects Page: Websites -->
+    <!-- ############################################################################################ -->
+    <url>
+        <loc>https://www.zla.app/projects/WPBlogWebsite/</loc>
+        <lastmod>2024-02-09</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.zla.app/projects/HexoBlogWebsite/</loc>
+        <lastmod>2024-02-09</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.zla.app/projects/ShortURLs/</loc>
+        <lastmod>2024-02-09</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <!-- ############################################################################################ -->
+    <!-- #4 Projects Page: Personal -->
+    <!-- ############################################################################################ -->
+    <url>
+        <loc>https://www.zla.app/projects/AIFans/</loc>
+        <lastmod>2024-02-09</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.zla.app/projects/BelugaSubs/</loc>
+        <lastmod>2024-02-09</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <!-- ############################################################################################ -->
+    <!-- News pages -->
+    <!-- ############################################################################################ -->
+    <!-- ############################################################################################ -->
+    <!-- Publications pages -->
+    <!-- ############################################################################################ -->
+</urlset>

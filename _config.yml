@@ -240,17 +240,17 @@ plugins:
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll/scholar
-  - jekyll-sitemap
+  # - jekyll-sitemap
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
 
-# Sitemap settings
-defaults:
-  - scope:
-      path: "assets"
-    values:
-      sitemap: false
+# Sitemap settings - MANUAL UPDATE
+# defaults:
+#   - scope:
+#       path: "assets"
+#     values:
+#       sitemap: false
 
 sass:
   style: compressed
@@ -260,7 +260,7 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ["robots.txt"]
+  exclude: ["robots.txt", "assets/favicon.ico", "sitemap.xml"]
   uglifier_args:
     harmony: true
 
