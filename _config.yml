@@ -260,7 +260,7 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ["robots.txt", "assets/favicon.ico", "sitemap.xml"]
+  exclude: ["robots.txt", "assets/img/favicon.ico", "sitemap.xml"]
   uglifier_args:
     harmony: true
 
