@@ -17,4 +17,18 @@ https://github.com/alshedivat/al-folio
 - bundle install
 - bundle exec jekyll serve
 
-**Notice:** Require Ruby, I am using 3.3.0(arm64) through rbenv.
+## Command to build (for pure static files)
+
+- bundle exec jekyll build
+
+## Command to run npx prettier (format checker)
+
+Check only
+
+- npx prettier --check .
+
+Check and rewrite All files
+
+- npx prettier --write .
+
+**Notice:** Require Ruby>=3.0, I am using 3.3.0(arm64) through rbenv.
