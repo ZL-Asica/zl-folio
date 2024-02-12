@@ -36,4 +36,5 @@ Check and rewrite All files
 - npx prettier --write .
 
 ## **Notice**
+
 Require Ruby>=3.0, I am using 3.3.0(arm64) through rbenv.
