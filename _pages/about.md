@@ -6,7 +6,7 @@ subtitle: Undergraduate Student - Double Majoring in Computer Science and Inform
 
 profile:
   align: right
-  image: https://s2.loli.net/2024/01/10/kZonzQIKdfhreAP.jpg
+  image: https://gravatar.com/avatar/cba8b28739dd6225f6fe961762bdb0b71b858d68c83d946a37cee3b0e0daece5?size=512
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>刘 卓然</p>
