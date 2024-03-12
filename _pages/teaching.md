@@ -9,6 +9,17 @@ nav_order: 4
 
 ---
 
+### Reader in Consumer Health Informatics
+
+**University of California, Irvine**
+
+_2024-04 ~ 2021-07_
+
+- Assisted Prof. Yunan Chen with course instruction.
+- Grading of undergraduate students’ homework and papers.
+
+---
+
 ### Learning Assistant in Programming with Software Libraries
 
 **University of California, Irvine**
@@ -16,7 +27,7 @@ nav_order: 4
 _2024-01 ~ 2021-04_
 
 - Help with lab sessions for answering students' questions.
-- Help students understands cources materials.
+- Help students understands course's materials.
 - Held own office hour.
 
 ---

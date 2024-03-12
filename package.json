@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "prettier-check": "prettier --check .",
+    "prettier-write": "prettier --write ."
+  },
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "^1.4.0",
     "cz-conventional-changelog": "^3.3.0",
