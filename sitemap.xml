@@ -57,7 +57,7 @@ permalink: /sitemap.xml
     <!-- ############################################################################################ -->
     <url>
         <loc>https://www.zla.app/projects/LifeTune/</loc>
-        <lastmod>2024-03-12</lastmod>
+        <lastmod>2024-03-16</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>

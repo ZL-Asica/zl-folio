@@ -3,12 +3,12 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Zhuoran
+first_name: Zhuoran (Elara)
 middle_name:
 last_name: Liu
 email: zl@zla.app
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Zhuoran Liu's personal portfolio website for academics.
+  Zhuoran (Elara) Liu's personal portfolio website for academics.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme with modifications and contributions.
 keywords: Zhuoran Liu, Computer Science, Machine Learning, Research, Zhuoran, academic-website, portfolio-website # add your own keywords or leave empty

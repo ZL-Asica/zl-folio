@@ -1,7 +1,7 @@
 ---
 layout: page
 title: BelugaSubs
-description: Founded by myself in 2019, bridges cultural gaps by translating digital content, notably in consumer electronics and cooking.
+description: One of the most popular subtitle groups in China.
 img: https://fp1.fghrsh.net/2024/01/27/bce6607f78b2b68cf462c481bcd150ba.jpg!q80.webp
 importance: 1
 category: Personal
