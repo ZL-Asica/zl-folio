@@ -2,7 +2,7 @@
 layout: page
 title: BelugaSubs
 description: One of the most popular subtitle groups in China.
-img: https://fp1.fghrsh.net/2024/01/27/bce6607f78b2b68cf462c481bcd150ba.jpg!q80.webp
+img: assets/img/projects/thumbnails/belugasubs.jpg
 importance: 1
 category: Personal
 related_publications: false
@@ -14,7 +14,7 @@ Parallel to my academic pursuits, I founded 'Beluga Subs': Recognizing the gap i
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="https://s2.loli.net/2024/02/07/Mamfnp4WxtRG9AS.png" title="Official Website" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/belugasubs/Official-Website.png" title="Official Website" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -22,10 +22,10 @@ In particular, I built a complete automated task information template combined w
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="https://s2.loli.net/2024/02/07/OHqDLd5UWTzSuol.png" title="Group Structure" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/belugasubs/Group-Structure.png" title="Group Structure" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="https://s2.loli.net/2024/02/07/l3sQN8wEfVrTUG6.png" title="Members Map" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/belugasubs/Members-Map.png" title="Members Map" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -34,7 +34,7 @@ In particular, I built a complete automated task information template combined w
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="https://s2.loli.net/2024/02/07/XjwTH2cICqosStA.png" title="Subtitle Downloading Website" class="img-fluid rounded z-depth-1" max-height="500px"%}
+        {% include figure.liquid path="assets/img/projects/belugasubs/Subtitle-Downloading-Website.png" title="Subtitle Downloading Website" class="img-fluid rounded z-depth-1" max-height="500px"%}
     </div>
 </div>
 <div class="caption">

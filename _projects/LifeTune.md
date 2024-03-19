@@ -16,7 +16,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="https://s2.loli.net/2024/03/17/8xzWo3OsJvSY4gF.jpg" title="Competitive Analysis" class="img-fluid rounded z-depth-1"%}
+        {% include figure.liquid path="assets/img/projects/lifetune/Competitive-Analysis.jpg" title="Competitive Analysis" class="img-fluid rounded z-depth-1"%}
     </div>
 </div>
 <div class="caption">
@@ -88,7 +88,7 @@ The research aims to gather user insights on health assessment needs and experie
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="https://s2.loli.net/2024/03/17/aKjQkINYVeOl6tJ.jpg" title="Storyboard" class="img-fluid rounded z-depth-1"%}
+        {% include figure.liquid path="assets/img/projects/lifetune/Storyboard.jpg" title="Storyboard" class="img-fluid rounded z-depth-1"%}
     </div>
 </div>
 <div class="caption">
@@ -103,7 +103,7 @@ The user's initial dissatisfaction, the quest for a solution, their interaction 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="https://s2.loli.net/2024/03/17/4LfkPtgCXjIE7Zl.jpg" title="Mid Fidelity Prototype" class="img-fluid rounded z-depth-1"%}
+        {% include figure.liquid path="assets/img/projects/lifetune/Mid-Fidelity-Prototype.jpg" title="Mid Fidelity Prototype" class="img-fluid rounded z-depth-1"%}
     </div>
 </div>
 
@@ -111,7 +111,7 @@ The user's initial dissatisfaction, the quest for a solution, their interaction 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="https://s2.loli.net/2024/03/13/2htV4TNxdFZySgk.jpg" title="High Fidelity Prototype" class="img-fluid rounded z-depth-1"%}
+        {% include figure.liquid path="assets/img/projects/lifetune/High-Fidelity-Prototype.jpg" title="High Fidelity Prototype" class="img-fluid rounded z-depth-1"%}
     </div>
 </div>
 
