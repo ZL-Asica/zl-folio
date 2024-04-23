@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of my cool projects.
 nav: true
 nav_order: 3
-display_categories: [Research, Softwares, Websites, Personal]
+display_categories: [Softwares, Websites, Personal]
 horizontal: false
 ---
 
@@ -14,11 +14,10 @@ horizontal: false
 <div class="projects" style="padding-bottom: 57px;">
 
 <p>
-Here are 4 main categories of projects below for me.<br>
-<a href="#Research">(1) Research</a> <br>
-<a href="#Softwares">(2) Softwares</a> <br>
-<a href="#Websites">(3) Websites</a> <br>
-<a href="#Personal">(4) Personal</a> <br>
+Here are 3 main categories of projects below for me.<br>
+<a href="#Softwares">(1) Softwares</a> <br>
+<a href="#Websites">(2) Websites</a> <br>
+<a href="#Personal">(3) Personal</a> <br>
 </p>
 
 {% if site.enable_project_categories and page.display_categories %}

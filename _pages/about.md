@@ -10,7 +10,7 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>刘 卓然</p>
-    <br><p>(She/Her/Hers)</p>
+    <br><p>(she/her)</p>
     <br><p><strong>University of California, Irvine</strong></p>
 
 news: true # includes a list of news items
@@ -21,6 +21,6 @@ social: true # includes social icons at the bottom of the page
 
 My research is centered on harnessing the power of `machine learning (ML)` to drive innovation within the `healthcare` sector. Fueled by an unwavering enthusiasm for AI technologies, my goal is to significantly improve the precision, efficiency, and capabilities of `consumer health products`.
 
-As a `fourth-year undergraduate` in the Information and Computer Science (ICS) Honors program, advised by Dr. Mohammad Moshirpour, I pursue a `dual major in Computer Science and Informatics`. I am currently applying to Master's programs for Fall 2024 and seeking `Ph.D. opportunities for Fall 2026`.
+As a `fourth-year undergraduate` in the Information and Computer Science (ICS) Honors program, advised by Dr. Mohammad Moshirpour, I pursue a `dual major in Computer Science and Informatics`. I will attend `Master of Science in Computer Science` at `Northwestern University` in Fall 2024 and seeking `Ph.D. opportunities` for `Fall 2026`.
 
 I enjoy `global travel`, `Japanese anime`, playing `Overwatch`, and aim to be more active. I also lead a subtitle group in China, [`BelugaSubs`](https://www.belugasubs.com), aiming to share diverse global stories with Chinese audiences.
