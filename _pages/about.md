@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-My research is centered on harnessing the power of `machine learning (ML)` to drive innovation within the `healthcare` sector. Fueled by an unwavering enthusiasm for AI technologies, my goal is to significantly improve the precision, efficiency, and capabilities of `consumer health products`.
+My research is centered on harnessing the power of `Human Computer Interaction (HCI)` with `Machine Learning (ML)` to drive innovation within the `healthcare` sector. Fueled by an unwavering enthusiasm for AI technologies, my goal is to significantly improve the precision, efficiency, and capabilities of `consumer health products`.
 
 As a `fourth-year undergraduate` in the Information and Computer Science (ICS) Honors program, advised by Dr. Mohammad Moshirpour, I pursue a `dual major in Computer Science and Informatics`. I will attend `Master of Science in Computer Science` at `Northwestern University` in Fall 2024 and seeking `Ph.D. opportunities` for `Fall 2026`.
 
