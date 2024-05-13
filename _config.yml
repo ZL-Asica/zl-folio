@@ -67,7 +67,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: ZL-Asica # your GitHub user name
 gitlab_username: # your GitLab user name
-x_username: zl_asica # your X handle
+x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: elara-liu # your LinkedIn user name
 telegram_username: zl_asica # your Telegram user name
@@ -94,7 +94,7 @@ lastfm_id: # your lastfm id
 spotify_id: # your spotify id
 pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
-instagram_id: # your instagram id
+instagram_id: zl_asica # your instagram id
 facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
