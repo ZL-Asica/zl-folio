@@ -6,7 +6,7 @@ img: assets/img/projects/thumbnails/aifans.jpg
 importance: 2
 category: Personal
 related_publications: false
-redirect: https://aifans.zla.app
+redirect:
 ---
 
 TO BE UPDATED
