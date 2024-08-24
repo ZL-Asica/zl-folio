@@ -18,7 +18,18 @@ Parallel to my academic pursuits, I founded 'Beluga Subs': Recognizing the gap i
     </div>
 </div>
 
-In particular, I built a complete automated task information template combined with subtitles using Python and Node JS. It was a major breakthrough in using my programming skills to change lives and help my team. I also used Agile and KanBan to build a complete workflow for the team, allowing everyone to work while focusing on the translation itself and not on anything else. This initiative was a bridge connecting cultures, expanding to over 100 team members, and translating an average of 40 videos per week. In the past 5 years, we produced more than 20000 videos each average 6-8 minutes long. Also achieved more than 100K fans around differnt video platforms. With my humble effort, I contributed to breaking down digital barriers and fostering accessibility.
+I transitioned from using Python and Node JS to React Native, Material UI, Node.js, and Express.js to create a fully automated system that downloads subtitles, merges them into a predefined template, and aligns them with the audio to match the script accurately. This technological upgrade allowed us to streamline the subtitling process, significantly enhancing the efficiency of our workflow and ensuring high-quality results.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/belugasubs/Subtitle-Downloading-Website.png" title="Subtitle Downloading Website" class="img-fluid rounded z-depth-1" max-height="500px"%}
+    </div>
+</div>
+<div class="caption">
+    This is a website I built using React Native, Material UI, Node.js, and Express.js for automatically downloading subtitles and applying BelugaSubs' translators' template for style control.
+</div>
+
+In addition, I employed Agile and Kanban methodologies to establish a robust workflow for the team, ensuring that everyone could focus solely on the translation process without distractions. This initiative served as a cultural bridge, expanding our team to over 100 members and enabling us to translate an average of 40 videos per week. Over the past five years, we produced more than 20,000 videos, each ranging from 6 to 8 minutes in length, and gained over 100,000 fans across various video platforms. Through my dedicated efforts, I contributed to breaking down digital barriers and promoting accessibility.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -30,13 +41,4 @@ In particular, I built a complete automated task information template combined w
 </div>
 <div class="caption">
     The left image is the whole structure of the subtitle group. On the right side is the subtitle group's members' map.
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/belugasubs/Subtitle-Downloading-Website.png" title="Subtitle Downloading Website" class="img-fluid rounded z-depth-1" max-height="500px"%}
-    </div>
-</div>
-<div class="caption">
-    This is a website built by me based on Node.js and Python for downloading video's subtitles and automatically implemet BelugaSubs' translators' template for styles control.
 </div>
