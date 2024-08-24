@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Zhuoran (Elara) Liu",
-    "label": "Undergraduate Student",
+    "label": "Graduate Student",
     "image": "",
     "email": "elara.liu@u.northwestern.edu",
     "phone": "",
@@ -21,7 +21,7 @@
       "location": "Irvine, CA",
       "url": "https://uci.edu",
       "area": "Double Majors in Computer Science and Informatics",
-      "studyType": "Bachelor of Science",
+      "studyType": "Honor BS",
       "startDate": "2020-09",
       "endDate": "2024-07",
       "score": "9",
@@ -117,7 +117,7 @@
   ],
   "awards": [
     {
-      "title": "ICS Honor Program (In Progress)",
+      "title": "ICS Honor Program",
       "date": "2024",
       "awarder": "University of California, Irvine",
       "url": "https://ics.uci.edu/honors/",
