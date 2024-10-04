@@ -18,10 +18,7 @@ layout: default
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image %}
-          {% unless profile_image_path contains 'http://' or profile_image_path contains 'https://' %}
-            {% assign profile_image_path = profile_image_path | prepend: 'assets/img/' %}
-          {% endunless %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
@@ -30,14 +27,9 @@ layout: default
           {% endif %}
           {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
-          {% assign cache_bust = is_remote_image | not %}
           {%
-            include figure.liquid
-            path=profile_image_path
-            class=profile_image_class
-            sizes=sizes
-            alt=site.first_name
-            cache_bust=cache_bust
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            cache_bust=true
           %}
         {% endif %}
         {% if page.profile.more_info %}
@@ -51,15 +43,15 @@ layout: default
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
     <!-- Latest posts -->
-    {% if page.latest_posts %}
+    {% if site.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest Posts</a>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
@@ -67,7 +59,7 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
@@ -79,6 +71,10 @@ layout: default
 
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
+    {% endif %}
+
+    {% if site.newsletter.enabled and site.footer_fixed %}
+      {% include scripts/newsletter.liquid center=true %}
     {% endif %}
   </article>
 </div>

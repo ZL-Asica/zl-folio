@@ -1,6 +1,12 @@
 {% assign img_path = include.path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.tiff' | remove: '.gif' %}
+{% assign parts = include.path | split: '.' %}
+{% assign ext = parts.last %}
 
-<figure style="text-align: center;">
+<figure
+  {% if include.slot %}
+    slot="{{ include.slot }}"
+  {% endif %}
+>
   <picture>
     <!-- Auto scaling with imagemagick -->
     <!--
@@ -10,25 +16,28 @@
     {% if site.imagemagick.enabled %}
       <source
         class="responsive-img-srcset"
-        srcset="{% for i in site.imagemagick.widths %}{{ img_path | relative_url }}-{{ i }}.webp {{i}}w,{% endfor %}"
+        {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.tiff' or ext == '.gif' %}
+          srcset="{% for i in site.imagemagick.widths %}{{ img_path | relative_url }}-{{ i }}.webp {{i}}w,{% endfor %}"
+          type="image/webp"
+        {% else %}
+          srcset="{{ include.path | relative_url }}"
+        {% endif %}
         {% if include.sizes %}
           sizes="{{include.sizes}}"
         {% else %}
           sizes="95vw"
         {% endif %}
-        type="image/webp"
       >
     {% endif %}
     <img
-      src="{% if include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
-      loading="lazy"
+      src="{% if include.url %}{{ include.url }}{% elsif include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
       {% if include.class %}
         class="{{ include.class }}"
       {% endif %}
       {% if include.width %}
         width="{{ include.width }}"
       {% else %}
-        width="auto"
+        width="100%"
       {% endif %}
       {% if include.height %}
         height="{{ include.height }}"
@@ -53,14 +62,17 @@
       {% endif %}
       {% if include.alt %}
         alt="{{ include.alt }}"
-      {% elsif include.title %}
-        alt="{{ include.title }}"
       {% endif %}
       {% if include.title %}
         title="{{ include.title }}"
       {% endif %}
       {% if include.zoomable %}
         data-zoomable
+      {% endif %}
+      {% if include.loading %}
+        loading="{{ include.loading }}"
+      {% elsif site.lazy_loading_images %}
+        loading="lazy"
       {% endif %}
       onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
     >

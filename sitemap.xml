@@ -9,7 +9,7 @@ permalink: /sitemap.xml
     <!-- ############################################################################################ -->
     <url>
         <loc>https://www.zla.app/</loc>
-        <lastmod>2024-04-22</lastmod>
+        <lastmod>2024-09-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -18,7 +18,7 @@ permalink: /sitemap.xml
     <!-- ############################################################################################ -->
     <url>
         <loc>https://www.zla.app/news/</loc>
-        <lastmod>2024-04-22</lastmod>
+        <lastmod>2024-09-22</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
@@ -27,7 +27,7 @@ permalink: /sitemap.xml
     <!-- ############################################################################################ -->
     <url>
         <loc>https://www.zla.app/teaching/</loc>
-        <lastmod>2024-03-12</lastmod>
+        <lastmod>2024-09-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -36,7 +36,7 @@ permalink: /sitemap.xml
     <!-- ############################################################################################ -->
     <url>
         <loc>https://www.zla.app/projects/</loc>
-        <lastmod>2024-04-22</lastmod>
+        <lastmod>2024-09-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -45,7 +45,7 @@ permalink: /sitemap.xml
     <!-- ############################################################################################ -->
     <url>
         <loc>https://www.zla.app/cv/</loc>
-        <lastmod>2024-04-22</lastmod>
+        <lastmod>2024-09-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>

@@ -10,8 +10,7 @@ horizontal: false
 ---
 
 <!-- pages/projects.md -->
-
-<div class="projects" style="padding-bottom: 57px;">
+<div class="projects">
 
 <p>
 Here are 3 main categories of projects below for me.<br>
@@ -37,14 +36,14 @@ Here are 3 main categories of projects below for me.<br>
 {% if page.horizontal %}
 
   <div class="container">
-    <div class="row row-cols-2">
+    <div class="row row-cols-1 row-cols-md-2">
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
-  <div class="grid">
+  <div class="row row-cols-1 row-cols-md-3">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
@@ -63,14 +62,14 @@ Here are 3 main categories of projects below for me.<br>
 {% if page.horizontal %}
 
   <div class="container">
-    <div class="row row-cols-2">
+    <div class="row row-cols-1 row-cols-md-2">
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
-  <div class="grid">
+  <div class="row row-cols-1 row-cols-md-3">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
