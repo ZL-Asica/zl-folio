@@ -5,5 +5,8 @@ description: Initiated a health-tech project for cancer screening recommendation
 img:
 importance: 5
 category: Softwares
-redirect: https://next.bmmw.net/
+redirect:
+# redirect: https://next.bmmw.net/
 ---
+
+TO BE UPDATED

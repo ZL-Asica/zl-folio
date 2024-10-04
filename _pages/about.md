@@ -6,7 +6,7 @@ subtitle: Graduate Student - Master of Science in Computer Science
 
 profile:
   align: right
-  image: img.jpg
+  image: elara.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>刘 卓然</p>

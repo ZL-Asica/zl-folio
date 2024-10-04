@@ -15,7 +15,7 @@ https://github.com/alshedivat/al-folio
 ## Command to run
 
 - bundle install
-- bundle exec jekyll serve
+- bundle exec jekyll serve -l
 
 ## Command to build (for pure static files)
 
