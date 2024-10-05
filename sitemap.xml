@@ -86,19 +86,19 @@ permalink: /sitemap.xml
         <loc>https://www.zla.app/projects/WPBlogWebsite/</loc>
         <lastmod>2024-02-09</lastmod>
         <changefreq>yearly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.5</priority>
     </url>
     <url>
         <loc>https://www.zla.app/projects/HexoBlogWebsite/</loc>
         <lastmod>2024-02-09</lastmod>
         <changefreq>yearly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.5</priority>
     </url>
     <url>
         <loc>https://www.zla.app/projects/ShortURLs/</loc>
         <lastmod>2024-02-09</lastmod>
         <changefreq>yearly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.5</priority>
     </url>
     <!-- ############################################################################################ -->
     <!-- #4 Projects Page: Personal -->
@@ -107,13 +107,13 @@ permalink: /sitemap.xml
         <loc>https://www.zla.app/projects/AIFans/</loc>
         <lastmod>2024-02-09</lastmod>
         <changefreq>yearly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.5</priority>
     </url>
     <url>
         <loc>https://www.zla.app/projects/BelugaSubs/</loc>
         <lastmod>2024-02-09</lastmod>
         <changefreq>yearly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.5</priority>
     </url>
     <!-- ############################################################################################ -->
     <!-- News pages -->
