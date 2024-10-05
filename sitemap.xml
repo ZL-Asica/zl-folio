@@ -53,6 +53,12 @@
     <!-- #2 Projects Page: Softwares -->
     <!-- ############################################################################################ -->
     <url>
+        <loc>https://www.zla.app/projects/Goshsha/</loc>
+        <lastmod>2024-08-18</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://www.zla.app/projects/LifeTune/</loc>
         <lastmod>2024-03-18</lastmod>
         <changefreq>yearly</changefreq>
