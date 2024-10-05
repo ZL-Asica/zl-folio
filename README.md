@@ -1,4 +1,4 @@
-# Zhuoran Liu's personal acdemic folio
+# Zhuoran (Elara) Liu's personal academic portfolio
 
 ## Jeklly Theme I Am Using
 

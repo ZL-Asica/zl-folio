@@ -6,7 +6,6 @@ img:
 importance: 5
 category: Softwares
 redirect:
-# redirect: https://next.bmmw.net/
 ---
 
 TO BE UPDATED
