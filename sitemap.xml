@@ -9,7 +9,7 @@ permalink: /sitemap.xml
     <!-- ############################################################################################ -->
     <url>
         <loc>https://www.zla.app/</loc>
-        <lastmod>2024-09-22</lastmod>
+        <lastmod>2024-11-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -36,7 +36,7 @@ permalink: /sitemap.xml
     <!-- ############################################################################################ -->
     <url>
         <loc>https://www.zla.app/projects/</loc>
-        <lastmod>2024-09-22</lastmod>
+        <lastmod>2024-11-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -45,9 +45,9 @@ permalink: /sitemap.xml
     <!-- ############################################################################################ -->
     <url>
         <loc>https://www.zla.app/cv/</loc>
-        <lastmod>2024-09-22</lastmod>
+        <lastmod>2024-11-13</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <priority>0.8</priority>
     </url>
     <!-- ############################################################################################ -->
     <!-- #1 Projects Page: Research -->
@@ -59,32 +59,32 @@ permalink: /sitemap.xml
         <loc>https://www.zla.app/projects/Goshsha/</loc>
         <lastmod>2024-08-18</lastmod>
         <changefreq>yearly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.5</priority>
     </url>
     <url>
         <loc>https://www.zla.app/projects/LifeTune/</loc>
         <lastmod>2024-03-18</lastmod>
         <changefreq>yearly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.5</priority>
     </url>
     <url>
         <loc>https://www.zla.app/projects/MyWellness/</loc>
         <lastmod>2024-02-09</lastmod>
         <changefreq>yearly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.5</priority>
     </url>
     <url>
         <loc>https://www.zla.app/projects/CancerObserver/</loc>
         <lastmod>2024-02-09</lastmod>
         <changefreq>yearly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.5</priority>
     </url>
     <!-- ############################################################################################ -->
     <!-- #3 Projects Page: Websites -->
     <!-- ############################################################################################ -->
     <url>
-        <loc>https://www.zla.app/projects/WPBlogWebsite/</loc>
-        <lastmod>2024-02-09</lastmod>
+        <loc>https://www.zla.app/projects/SuzuBlog/</loc>
+        <lastmod>2024-11-13</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
