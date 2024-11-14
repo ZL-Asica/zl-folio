@@ -4,7 +4,7 @@ title: BelugaSubs
 description: One of the most popular subtitle groups in China.
 img: assets/img/projects/thumbnails/belugasubs.jpg
 importance: 1
-category: Personal
+category: Organization
 related_publications: false
 ---
 

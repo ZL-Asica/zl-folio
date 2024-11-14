@@ -5,18 +5,18 @@ permalink: /projects/
 description: A growing collection of my cool projects.
 nav: true
 nav_order: 3
-display_categories: [Softwares, Websites, Personal]
+display_categories: [Mobile, Web, Organization]
 horizontal: false
 ---
 
 <!-- pages/projects.md -->
 <div class="projects">
 
-<p>
-Here are 3 main categories of projects below for me.<br>
-<a href="#Softwares">(1) Softwares</a> <br>
-<a href="#Websites">(2) Websites</a> <br>
-<a href="#Personal">(3) Personal</a> <br>
+<p class="lead">
+  Discover my projects, organized into three main categories for easy navigation: <br>
+  <a href="#Softwares" class="btn btn-outline-primary my-2 mx-1">Mobile</a>
+  <a href="#Websites" class="btn btn-outline-primary my-2 mx-1">Web</a>
+  <a href="#Personal" class="btn btn-outline-primary my-2 mx-1">Organization</a>
 </p>
 
 {% if site.enable_project_categories and page.display_categories %}

@@ -4,6 +4,6 @@ title: ShortURLs Website
 description: My personal shortURLs website for generating short URLs for users.
 img:
 importance: 6
-category: Websites
+category: Web
 redirect: https://zla.icu/
 ---

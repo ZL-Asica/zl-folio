@@ -1,0 +1,15 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "on",
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true,
+    "**/node_modules": true,
+    "pnpm-lock.yaml": true,
+    "yarn.lock": true,
+    "package-lock.json": true,
+    ".github": true,
+    "Gemfile.lock": true
+  }
+}

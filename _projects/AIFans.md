@@ -4,7 +4,7 @@ title: AIFans
 description: One of the largest KizunaAI's Chinese fans' website.
 img: assets/img/projects/thumbnails/aifans.jpg
 importance: 2
-category: Personal
+category: Organization
 related_publications: false
 redirect: https://aifans.zla.app
 ---

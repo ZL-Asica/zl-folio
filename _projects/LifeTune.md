@@ -4,7 +4,7 @@ title: LifeTune
 description: Developed a comprehensive iOS health assessment and tracking app with SwiftUI and Swift.
 img: assets/img/projects/thumbnails/LifeTune.png
 importance: 2
-category: Softwares
+category: Mobile
 related_publications: false
 ---
 
