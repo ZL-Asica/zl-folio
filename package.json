@@ -4,9 +4,9 @@
     "prettier-write": "prettier --write ."
   },
   "devDependencies": {
-    "@shopify/prettier-plugin-liquid": "^1.4.4",
+    "@shopify/prettier-plugin-liquid": "^1.6.0",
     "cz-conventional-changelog": "^3.3.0",
-    "prettier": "^3.2.5"
+    "prettier": "^3.3.3"
   },
   "config": {
     "commitizen": {

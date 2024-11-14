@@ -1,40 +1,74 @@
-# Zhuoran (Elara) Liu's personal academic portfolio
+# 🌸 zl-folio
 
-## Jeklly Theme I Am Using
+> Zhuoran (Elara) Liu's personal academic portfolio, themed by [al-folio][al-folio] with my contributions.
 
-> With modifications by myself
+[![Website Status][website-badge]][website]
+[![Jekyll][jekyll-badge]][jekyll]
+[![Ruby][ruby-badge]][ruby]
 
-https://github.com/alshedivat/al-folio
+## 🚀 Quick Start
 
-## Command to install
+Get started with these simple steps:
 
-- Ruby
-- gem install bundler
-- gem install jekyll bundler
+1. **Clone the repository**
 
-## Command to run
+   ```bash
+   git clone git@github.com:ZL-Asica/zl-folio.git
+   cd zl-folio
+   ```
 
-- bundle install
-- bundle exec jekyll serve -l
+2. **Install Ruby and Jekyll** _(if you haven't already)_
 
-## Command to build (for pure static files)
+   ```bash
+   gem install bundler jekyll
+   ```
 
-- bundle exec jekyll build
+3. **Install dependencies** (Jekyll gems)
 
-## Command to run npx prettier (format checker)
+   ```bash
+   bundle install
+   ```
 
-You need to install `@shopify/prettier-plugin-liquid` before first time running prettier.
+4. **Start the development server**
 
-- npm install --save-dev @shopify/prettier-plugin-liquid
+   Run with the `-l` option for live reload:
 
-Check only
+   ```bash
+   bundle exec jekyll serve -l
+   ```
 
-- npx prettier --check .
+5. **Open the source code and start editing!** 🎉
 
-Check and rewrite All files
+6. **Build the site for production**
 
-- npx prettier --write .
+   Generate static files for deployment:
 
-## **Notice**
+   ```bash
+   bundle exec jekyll build
+   ```
 
-Require Ruby>=3.0, I am using 3.3.0(arm64) through rbenv.
+## 🎨 Code Formatting with Prettier
+
+To keep code neat, install `@shopify/prettier-plugin-liquid` if this is your first time running Prettier:
+
+```bash
+npm install @shopify/prettier-plugin-liquid --save-dev
+```
+
+Format the code with:
+
+```bash
+npx prettier --write .
+```
+
+---
+
+Enjoy building and customizing! 🌈✨ Happy coding! 😊
+
+[al-folio]: https://github.com/alshedivat/al-folio
+[jekyll]: https://jekyllrb.com/
+[jekyll-badge]: https://img.shields.io/badge/Jekyll-C00?logo=jekyll&logoColor=fff&style=flat-square
+[ruby]: https://www.ruby-lang.org/
+[ruby-badge]: https://img.shields.io/badge/Ruby-%23CC342D.svg?&logo=ruby&logoColor=white&style=flat-square
+[website]: https://www.zla.app
+[website-badge]: https://img.shields.io/website-up-down-green-red/https/www.zla.app.svg?label=website&style=flat-square
