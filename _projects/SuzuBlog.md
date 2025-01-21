@@ -10,13 +10,6 @@ redirect:
 
 **SuzuBlog**, named after the Japanese word **鈴** (suzu, meaning "bell" 🎐), is a minimalist, high-performance blog theme inspired by **Japanese aesthetics**, built with **Next.js**. The project emphasizes delivering a calm, visually clean, and efficient reading experience with **lightweight content management** powered by Markdown and YAML.
 
-<div class="row mt-3 d-flex justify-content-center">
-    <div class="col-sm mt-3 mt-md-0 text-center">
-        <a href="https://www.github.com/ZL-Asica/SuzuBlog" target="_blank" alt="SuzuBlog GitHub Repository" rel="noopener noreferrer">
-            {% include figure.liquid path="https://ghc.clait.sh/repo/ZL-Asica/SuzuBlog?bg_color=ffffff&title_color=0366d6&text_color=333333&icon_color=333333&show_user=false" class="img-fluid rounded z-depth-1" max-width="500px" alt="SuzuBlog Preview" %}
-         </a>
-    </div>
-</div>
 <div class="caption">
 <a href="https://www.zla.pub/" target="_blank" alt="Live Demo of SuzuBlog" rel="noopener noreferrer">🌸 Visit SuzuBlog Demo (my personal blog)</a>
 </div>
