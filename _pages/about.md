@@ -19,8 +19,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a `first-year MSCS student` at `Northwestern University`, personally focusing on `Human-Computer Interaction (HCI)` and `Machine Learning (ML)` to drive transformative innovation in the `healthcare` sector. My academic focus is on leveraging these technologies to advance the precision, efficiency, and capabilities of `consumer health products`.
+I am a `first-year MSCS student` at `Northwestern University`, specializing in `Human-Computer Interaction (HCI)` and `Ubiquitous Computing`. My research focuses on `intelligent interactive systems`—how computational models can enhance human experiences through adaptive, context-aware technologies.
 
-With a deep passion for healthcare technologies, I am dedicated to contributing to the development of cutting-edge solutions that can positively impact patient outcomes and overall healthcare experiences.
+My work spans `interaction modeling`, `multimodal data processing`, and `efficient ML-driven interfaces`, aiming to bridge `human-centered design with scalable computational methods`. I am particularly interested in how `ubiquitous sensing` and `AI-driven interaction` can improve `everyday computing environments`.
 
-During my undergraduate studies, I earned an honors degree with a dual major in Computer Science and Informatics. Outside of my academic pursuits, I am an avid enthusiast of `traveling`, `Japanese anime`, and `exploring pâtisserie`. As I continue my academic journey, I am also actively seeking `PhD opportunities` for `Fall 2026`.
+I earned `honors degrees` in `Computer Science` and `Informatics` from `UC Irvine`, where I conducted research on information retrieval, interactive system design, and computational methods for behavioral analysis. I am currently exploring `PhD` opportunities for `Fall 2026` to further my research in intelligent interaction and ubiquitous computing.
